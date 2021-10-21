@@ -1,0 +1,66 @@
+*{margin:0; padding:0;}
+
+.homes1 {
+    position: relative;
+    text-align: center;
+    width: 95vw;
+    overflow: hidden;
+}  
+
+.index-slide-image h2 {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 50px;
+    color: #00ccd6;
+}
+.index-slide-image h3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+    font-size: 35px;
+    color: #dae2e2;
+}
+
+.index-slide-image a {
+    background-color: #2f0fbb; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+.index-slide-image a:hover{
+    background-color: #0886da;
+}
+
+.button1{
+    position: absolute;
+    top: 55%;
+    left:36%;
+    width: 220px;
+}
+
+.button2{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    width: 220px;
+
+}
+
+
+.index-image{
+    filter: brightness(40%)
+}
