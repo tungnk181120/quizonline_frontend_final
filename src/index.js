@@ -9,7 +9,7 @@ import 'react-notifications/lib/notifications.css';
 
 // require('dotenv').config()
 const client = new ApolloClient({
-	uri: 'https://ibm-server-a.herokuapp.com/',
+	uri: 'http://quizonline-backend-final-quizonline.myquizonline-8708e68b80280e12068486fd74bd0890-0000.hkg02.containers.appdomain.cloud/',
 	cache: new InMemoryCache()
 })
 
